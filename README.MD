@@ -18,4 +18,6 @@ and run it from terminal
 ```sh
 $ docker-compose up
 ```
+wait until docker finish install and show comment Listening on port 5000
+
 open in browser http://localhost:5000

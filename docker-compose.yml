@@ -1,0 +1,30 @@
+version: '3.5'
+services:
+    server:
+        image: "xceng"
+        container_name: "xceng_server"
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - 5000:5000
+        volumes:
+            - '.:/usr/src/app'
+            - '/usr/src/app/node_modules'
+        environment:
+            - NODE_ENV=production
+        command: bash -c "npm run prod"
+             
+
+    client:
+        image: "xceng"
+        container_name: "xceng_client"
+        build:
+            context: .
+            dockerfile: Dockerfile
+        volumes:
+            - '.:/usr/src/app'
+            - '/usr/src/app/node_modules'
+        environment:
+            - NODE_ENV=production
+        command: bash -c "npm run prod:build-client"

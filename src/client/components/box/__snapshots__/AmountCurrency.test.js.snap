@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AmountCurrency /> should render amount box 1`] = `
+<Fragment>
+  <WithStyles(Typography)
+    variant="h6"
+  >
+    USD - United States Dollars
+  </WithStyles(Typography)>
+  <div>
+    <div
+      className="width50"
+    >
+      <WithStyles(Typography)
+        component="h6"
+        variant="h6"
+      >
+        USD
+      </WithStyles(Typography)>
+    </div>
+    <div
+      className="width50 text-right"
+    >
+      <WithStyles(Input)
+        className=""
+        inputProps={
+          Object {
+            "style": Object {
+              "textAlign": "right",
+            },
+          }
+        }
+        onChange={[Function]}
+        placeholder="Insert Value"
+      />
+    </div>
+  </div>
+</Fragment>
+`;

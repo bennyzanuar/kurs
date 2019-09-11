@@ -1,0 +1,80 @@
+{
+  "name": "kurs",
+  "version": "1.0.0",
+  "description": "kurs app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm-run-all --parallel dev:*",
+    "dev:server": "nodemon --watch build --exec babel-node build/bundle.js",
+    "dev:build-server": "webpack --mode development --config webpack.server.js --watch",
+    "dev:build-client": "webpack --mode development --config webpack.client.js --watch",
+    "prod": "npm run prod:build-server && npm run prod:build-client && npm run prod:server",
+    "prod:server": "pm2-runtime build/bundle.js",
+    "prod:build-server": "webpack --mode production --config webpack.server.js",
+    "prod:build-client": "webpack --mode production --config webpack.client.js",
+    "test": "jest",
+    "test:watch": "npm test -- --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bennyzanuar/kurs.git"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "axios": "^0.18.0",
+    "babel-loader": "^8.0.5",
+    "compression": "^1.7.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-http-proxy": "^1.5.1",
+    "npm-run-all": "^4.1.5",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-helmet": "^5.2.0",
+    "react-redux": "^6.0.0",
+    "react-router-config": "^1.0.0-beta.4",
+    "react-router-dom": "^4.3.1",
+    "react-select": "^2.4.1",
+    "redux": "^4.0.1",
+    "redux-mock-store": "^1.5.3",
+    "redux-thunk": "^2.3.0",
+    "serialize-javascript": "^1.6.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.1.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "enzyme-to-json": "^3.3.5",
+    "jest": "^24.1.0",
+    "react-test-renderer": "^16.8.2",
+    "nodemon": "^1.18.10",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-merge": "^4.2.1",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "author": "Benny Zanuarwan Putra Guchy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bennyzanuar/kurs/issues"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>src/setupTests.js"
+    ]
+  },
+  "homepage": "https://github.com/bennyzanuar/kurs#readme"
+}

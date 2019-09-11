@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListCurrency /> should render list with props 1`] = `
+<Fragment>
+  <WithStyles(List)
+    key="0"
+  >
+    <WithStyles(ListItem)>
+      <div
+        className="box-left"
+      >
+        <div
+          className="width50"
+        >
+          <WithStyles(Typography)
+            component="h6"
+            variant="h6"
+          >
+            IDR
+          </WithStyles(Typography)>
+        </div>
+        <div
+          className="width50 text-right"
+        >
+          <WithStyles(Typography)
+            component="p"
+          >
+            141,020.0110
+          </WithStyles(Typography)>
+        </div>
+        <WithStyles(Typography)
+          component="p"
+        >
+          <strong>
+            Indonesian Rupiah
+          </strong>
+        </WithStyles(Typography)>
+        <WithStyles(Typography)
+          component="p"
+        >
+          1 USD = IDR 14,102.0011
+        </WithStyles(Typography)>
+      </div>
+      <WithStyles(ListItemSecondaryAction)>
+        <WithStyles(IconButton)
+          aria-label="Delete"
+          onClick={[Function]}
+        >
+          <pure(DeleteIcon) />
+        </WithStyles(IconButton)>
+      </WithStyles(ListItemSecondaryAction)>
+    </WithStyles(ListItem)>
+  </WithStyles(List)>
+  <WithStyles(List)
+    key="1"
+  >
+    <WithStyles(ListItem)>
+      <div
+        className="box-left"
+      >
+        <div
+          className="width50"
+        >
+          <WithStyles(Typography)
+            component="h6"
+            variant="h6"
+          >
+            EUR
+          </WithStyles(Typography)>
+        </div>
+        <div
+          className="width50 text-right"
+        >
+          <WithStyles(Typography)
+            component="p"
+          >
+            8.8540
+          </WithStyles(Typography)>
+        </div>
+        <WithStyles(Typography)
+          component="p"
+        >
+          <strong>
+            Euro
+          </strong>
+        </WithStyles(Typography)>
+        <WithStyles(Typography)
+          component="p"
+        >
+          1 USD = EUR 0.8854
+        </WithStyles(Typography)>
+      </div>
+      <WithStyles(ListItemSecondaryAction)>
+        <WithStyles(IconButton)
+          aria-label="Delete"
+          onClick={[Function]}
+        >
+          <pure(DeleteIcon) />
+        </WithStyles(IconButton)>
+      </WithStyles(ListItemSecondaryAction)>
+    </WithStyles(ListItem)>
+  </WithStyles(List)>
+  <WithStyles(List)
+    key="2"
+  >
+    <WithStyles(ListItem)>
+      <div
+        className="box-left"
+      >
+        <div
+          className="width50"
+        >
+          <WithStyles(Typography)
+            component="h6"
+            variant="h6"
+          >
+            GBP
+          </WithStyles(Typography)>
+        </div>
+        <div
+          className="width50 text-right"
+        >
+          <WithStyles(Typography)
+            component="p"
+          >
+            7.7200
+          </WithStyles(Typography)>
+        </div>
+        <WithStyles(Typography)
+          component="p"
+        >
+          <strong>
+            British Pound Sterling
+          </strong>
+        </WithStyles(Typography)>
+        <WithStyles(Typography)
+          component="p"
+        >
+          1 USD = GBP 0.7720
+        </WithStyles(Typography)>
+      </div>
+      <WithStyles(ListItemSecondaryAction)>
+        <WithStyles(IconButton)
+          aria-label="Delete"
+          onClick={[Function]}
+        >
+          <pure(DeleteIcon) />
+        </WithStyles(IconButton)>
+      </WithStyles(ListItemSecondaryAction)>
+    </WithStyles(ListItem)>
+  </WithStyles(List)>
+  <WithStyles(List)
+    key="3"
+  >
+    <WithStyles(ListItem)>
+      <div
+        className="box-left"
+      >
+        <div
+          className="width50"
+        >
+          <WithStyles(Typography)
+            component="h6"
+            variant="h6"
+          >
+            SGD
+          </WithStyles(Typography)>
+        </div>
+        <div
+          className="width50 text-right"
+        >
+          <WithStyles(Typography)
+            component="p"
+          >
+            13.5680
+          </WithStyles(Typography)>
+        </div>
+        <WithStyles(Typography)
+          component="p"
+        >
+          <strong>
+            Singapore Dollar
+          </strong>
+        </WithStyles(Typography)>
+        <WithStyles(Typography)
+          component="p"
+        >
+          1 USD = SGD 1.3568
+        </WithStyles(Typography)>
+      </div>
+      <WithStyles(ListItemSecondaryAction)>
+        <WithStyles(IconButton)
+          aria-label="Delete"
+          onClick={[Function]}
+        >
+          <pure(DeleteIcon) />
+        </WithStyles(IconButton)>
+      </WithStyles(ListItemSecondaryAction)>
+    </WithStyles(ListItem)>
+  </WithStyles(List)>
+</Fragment>
+`;

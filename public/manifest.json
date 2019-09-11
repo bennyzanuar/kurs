@@ -1,0 +1,21 @@
+{
+    "short_name": "ExchangeApp",
+    "name": "Exchange Apps",
+    "description": "Exchange App built with react redux server side rendering",
+    "display": "standalone",
+    "start_url": "/",
+    "background_color": "#f5f5f5",
+    "theme_color": "#f53d2d",
+    "icons": [
+        {
+            "src": "/192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

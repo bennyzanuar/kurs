@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+}
+.box-left{
+    width: 100%;
+    padding: 10px;
+    margin-right: 30px;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5 ;
+}
+.width-100{
+    width: 100%;
+}
+.width50{
+    width: 45%;
+    display: inline-block;;
+}
+.text-right{
+    text-align: right;
+}
+.grid-center {
+    width: '100%';
+    max-width: 360;
+    padding: 30px 30px 30px 30px;
+}

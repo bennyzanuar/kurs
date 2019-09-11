@@ -1,4 +1,4 @@
-# xceng app
+# Kurs app
 
 I built with react, redux, PWA, and server side rendering\
 why i built this with server side rendering, because in my opinion, as a front end engineer must pay attention to SEO\
